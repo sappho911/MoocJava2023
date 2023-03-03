@@ -15,11 +15,10 @@ public class SimpleCalculator {
 
         int second = Integer.valueOf(scanner.nextLine());
 
-        double average = 1.0 * first / second;
-
+        //double average = 1.0 * first / second;
         System.out.println(first + " + " + second + " = " + (first + second));
         System.out.println(first + " - " + second + " = " + (first - second));
         System.out.println(first + " * " + second + " = " + (first * second));
-        System.out.println(first + " / " + second + " = " + average);
+        System.out.println(first + " / " + second + " = " + (1.0 * first / second));
     }
 }
