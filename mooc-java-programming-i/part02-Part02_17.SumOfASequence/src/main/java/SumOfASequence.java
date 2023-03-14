@@ -14,8 +14,8 @@ public class SumOfASequence {
 
         int input = Integer.valueOf(scanner.nextLine());
 
-        for (int i = 0; i <= input; i++) {
-            summa += i;
+        for (int i = count; count <= input; count++) {
+            summa += count;
         }
 
         /*while (count <= input) {
