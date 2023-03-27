@@ -23,5 +23,5 @@ public class Sum {
             summa += number;
         }
         return summa;
-    }//end of int sum
+    }//end of method sum
 }//end of class
